@@ -1,0 +1,12 @@
+# This directory should contain self-hosted WOFF2 font files referenced by
+# @font-face declarations in /assets/css/styles.css.
+#
+# Required files:
+#   instrument-serif-regular.woff2   (Instrument Serif, weight 400)
+#   inter-regular.woff2              (Inter, weight 400)
+#   inter-medium.woff2               (Inter, weight 500)
+#   inter-semibold.woff2             (Inter, weight 600)
+#   jetbrains-mono-regular.woff2     (JetBrains Mono, weight 400)
+#
+# Source: Google Fonts. Use google-webfonts-helper or similar to download
+# WOFF2 subsets, then drop files into this directory with the exact names above.
