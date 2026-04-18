@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "id": "cc-plus-mexico",
+      "partner_tag": "UNICEF MEXICO · GOB. DE MÉXICO",
+      "title": "Embedding mental health support in a national WhatsApp-based parenting programme",
+      "description": "Co-designed and evaluated Crianza con Conciencia+ (CC+), a digital parenting and mental health intervention deployed inside the Mexican public health system. Work spans intervention design, implementation strategy across four states, and the feasibility and early-effectiveness evaluation.",
+      "link": null
+    },
+    {
+      "id": "iresponder-lfri",
+      "partner_tag": "LAY FIRST RESPONDERS INTERNATIONAL",
+      "title": "Research programme for a West African lay first responder platform",
+      "description": "Directing research and evaluation for iResponder, a mobile dispatch and responder-wellbeing application serving volunteer first responders in Sierra Leone and across West Africa. Scope includes platform measurement strategy and a three-country longitudinal cohort study of responder mental health.",
+      "link": null
+    },
+    {
+      "id": "addiction-stigma-rct-stanford",
+      "partner_tag": "STANFORD UNIVERSITY",
+      "title": "Multi-country RCT of a video intervention to reduce addiction stigma",
+      "description": "Co-led design, protocol, and analysis of a randomised controlled trial testing a short wordless animated video across 13,500 participants in multiple countries. Pilot results are published in Addictive Behaviors Reports; the full trial is in analysis.",
+      "link": null
+    },
+    {
+      "id": "psychotherapy-lmic-meta-hli",
+      "partner_tag": "HAPPIER LIVES INSTITUTE",
+      "title": "Meta-analysis of psychotherapy effectiveness in LMICs",
+      "description": "Led a systematic review and meta-analysis of psychotherapy effectiveness across low- and middle-income country settings. Outputs fed into cost-effectiveness modelling used by global health funders and shaped the institute's subsequent research agenda.",
+      "link": null
+    }
+  ]
+}
