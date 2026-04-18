@@ -10,6 +10,7 @@
       "doi": null,
       "url": null,
       "highlighted": true,
+      "selected_order": 1,
       "annotation": "The first cross-country synthesis of chatbot access and design patterns across multiple LMIC programmes, establishing what works when a digital intervention has to function outside a trial site."
     },
     {
@@ -22,6 +23,7 @@
       "doi": null,
       "url": null,
       "highlighted": true,
+      "selected_order": 3,
       "annotation": "An implementation case study of launching a national digital mental health programme in a shifting political environment, written for researchers and practitioners working in LMIC systems."
     },
     {
@@ -58,6 +60,7 @@
       "doi": null,
       "url": null,
       "highlighted": true,
+      "selected_order": 5,
       "annotation": "A quantitative synthesis of the evidence for positive psychology interventions inside carceral settings, extending earlier work on correctional rehabilitation."
     },
     {
@@ -70,6 +73,7 @@
       "doi": null,
       "url": null,
       "highlighted": true,
+      "selected_order": 4,
       "annotation": "Pilot results from a multi-country RCT conducted with Stanford University, testing whether a brief wordless video can shift addiction stigma across language and cultural contexts."
     },
     {
@@ -142,6 +146,7 @@
       "doi": null,
       "url": null,
       "highlighted": true,
+      "selected_order": 2,
       "annotation": "The first systematic review of parenting chatbots, mapping the evidence base for conversational agents as a delivery medium for family interventions."
     },
     {

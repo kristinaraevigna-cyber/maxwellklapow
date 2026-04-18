@@ -14,7 +14,7 @@
 
   <!-- [PLACEHOLDER: favicon — client to supply /img/favicon.svg] -->
 </head>
-<body>
+<body data-page="research">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
@@ -33,9 +33,68 @@
     </div>
   </header>
 
-  <main id="main">
-    <h1>Research</h1>
-    <!-- Phase 1 stub — offset-label grid (Themes, Selected Projects, Methods & Frameworks, Affiliations, Current Outputs) lands in Phase 3. -->
+  <main id="main" class="main--research">
+    <h1 class="page-headline">Research</h1>
+    <p class="page-subheadline">Digital behaviour change, implementation science, and global mental health.</p>
+
+    <p class="page-lede">My research programme is about how psychological interventions scale. Most evidence-based mental health content never reaches the people it was designed for, because the systems that deliver it do not exist in the places it is most needed. My work tests a different approach. I design digital interventions that can be embedded within the delivery systems people already use, and evaluate them under the messy conditions of real-world implementation. The medium is usually conversational — chatbots, mobile tools, AI-powered interfaces — but the underlying question is about infrastructure, not technology.</p>
+
+    <section class="offset" aria-labelledby="themes-label">
+      <p class="offset__label" id="themes-label">Themes</p>
+      <div class="offset__body">
+        <p><strong>Digital behaviour change.</strong> I design and evaluate conversational agents, chatbots, and mobile tools for health behaviour. This includes the role of AI in how these tools are built, personalised, and kept responsive to the people using them.</p>
+        <p><strong>Implementation science.</strong> I study how evidence-based interventions move from controlled trials into real-world systems, particularly in low- and middle-income countries. I use ExpandNet, RE-AIM, EPIS, and related implementation frameworks to structure that work.</p>
+        <p><strong>Global mental health.</strong> My research focuses on scalable, low-cost delivery models for LMIC contexts — Mexico, Nigeria, Uganda, Sierra Leone, the Philippines — where most of the world&rsquo;s mental health burden sits and where most of the world&rsquo;s clinical workforce does not.</p>
+        <p><strong>Evaluation methodology.</strong> I design and run RCTs (individual and cluster), feasibility and pilot studies, mixed-methods evaluations, and systematic reviews with meta-analysis.</p>
+      </div>
+    </section>
+
+    <section class="offset" aria-labelledby="projects-label">
+      <p class="offset__label" id="projects-label">Selected Projects</p>
+      <div class="offset__body project-list">
+        <article class="project-block">
+          <p><strong>CC+ (Crianza con Conciencia+).</strong> A WhatsApp-based parenting and mental health chatbot deployed within the Mexican public health system. I am running a feasibility and early-effectiveness evaluation across four Mexican states, developed with UNICEF Mexico and the Mexican federal and state governments.</p>
+        </article>
+        <article class="project-block">
+          <p><strong>FLOURISH Trial.</strong> An evaluation of the CC+ intervention designed as a registered report, testing feasibility, acceptability, and signals of effectiveness for families enrolled in the national programme. Power analysis, implementation outcomes, and pre-post change are the primary focus.</p>
+        </article>
+        <article class="project-block">
+          <p><strong>iResponder (Lay First Responders International).</strong> A mobile dispatch and mental health support application for volunteer lay first responders in Sierra Leone and across West Africa. I lead research and evaluation on the platform, including a longitudinal mental health study of responders across three countries.</p>
+        </article>
+        <article class="project-block">
+          <p><strong>Addiction Stigma RCT.</strong> A multi-country randomised controlled trial of a short, wordless animated storytelling video designed to reduce addiction stigma, conducted with Stanford University. Protocol and pilot results are published; the full trial is in analysis.</p>
+        </article>
+        <article class="project-block">
+          <p><strong>Psychotherapy in LMICs Meta-Analysis.</strong> A systematic review and meta-analysis of psychotherapy effectiveness in low- and middle-income countries, conducted with the Happier Lives Institute.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="offset" aria-labelledby="methods-label">
+      <p class="offset__label" id="methods-label">Methods &amp; Frameworks</p>
+      <div class="offset__body">
+        <p>RCTs and cluster-RCTs · feasibility and pilot designs · mixed methods · multilevel modelling · MICE and FIML for missing data · psychometric validation · framework and thematic analysis · behaviour change techniques (BCTs) · COM-B · ExpandNet · RE-AIM · EPIS.</p>
+      </div>
+    </section>
+
+    <section class="offset" aria-labelledby="affiliations-label">
+      <p class="offset__label" id="affiliations-label">Affiliations</p>
+      <div class="offset__body">
+        <p>Visiting Researcher, National Institute of Psychiatry Ramón de la Fuente Muñiz (Mexico City). Affiliate Researcher, Slovak Lab, King&rsquo;s College London. Affiliate Researcher, Department of Social Policy and Intervention, University of Oxford. Director of Research and Evaluation, Lay First Responders International.</p>
+      </div>
+    </section>
+
+    <section class="offset" aria-labelledby="outputs-label">
+      <p class="offset__label" id="outputs-label">Current Outputs</p>
+      <div class="offset__body">
+        <p>Peer-reviewed work is published in <em>JMIR Pediatrics and Parenting</em>, <em>Addictive Behaviors Reports</em>, <em>Journal of Positive Psychology</em>, <em>Injury</em>, <em>Population Medicine</em>, and <em>Sociology Compass</em>, among others. Papers are currently under review at <em>npj Digital Public Health</em> and <em>Prevention Science</em>. A full publications list is on the next page.</p>
+      </div>
+    </section>
+
+    <p class="page-ctas">
+      <a href="/publications" class="inline-link">Publications<span aria-hidden="true"> →</span></a>
+      <a href="/contact" class="inline-link">Get in touch about research<span aria-hidden="true"> →</span></a>
+    </p>
   </main>
 
   <footer class="site-footer">
@@ -46,5 +105,6 @@
   </footer>
 
   <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/motion.js" defer></script>
 </body>
 </html>

@@ -14,7 +14,7 @@
 
   <!-- [PLACEHOLDER: favicon — client to supply /img/favicon.svg] -->
 </head>
-<body>
+<body data-page="contact">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
@@ -33,11 +33,34 @@
     </div>
   </header>
 
-  <main id="main">
-    <h1>Contact</h1>
-    <!-- Phase 1 stub — single-column email block (max 560px) and Elsewhere list with offset labels land in Phase 3. -->
-    <!-- [PLACEHOLDER: Google Scholar URL — client to supply] -->
-    <!-- [PLACEHOLDER: ORCID URL — client to supply] -->
+  <main id="main" class="main--contact">
+    <h1 class="page-headline">Contact</h1>
+
+    <div class="contact">
+      <div class="contact-block">
+        <p class="contact-block__desc">Academic and research inquiries — collaborations, manuscripts, student and postdoc matters.</p>
+        <p class="contact-block__email"><a href="mailto:maxwell.klapow@psy.ox.ac.uk" class="inline-link">maxwell.klapow@psy.ox.ac.uk</a></p>
+      </div>
+
+      <div class="contact-block">
+        <p class="contact-block__desc">Consulting and speaking inquiries — product, evaluation, strategy, talks.</p>
+        <p class="contact-block__email"><a href="mailto:maxwell.klapow@psy.ox.ac.uk" class="inline-link">maxwell.klapow@psy.ox.ac.uk</a></p>
+      </div>
+
+      <section class="offset" aria-labelledby="elsewhere-label">
+        <p class="offset__label" id="elsewhere-label">Elsewhere</p>
+        <div class="offset__body">
+          <ul class="elsewhere">
+            <li><a class="inline-link" href="https://www.psy.ox.ac.uk/people/maxwell-klapow" rel="noopener" target="_blank">Oxford<span aria-hidden="true"> →</span></a></li>
+            <li><a class="inline-link" href="http://www.linkedin.com/in/max-klapow" rel="noopener" target="_blank">LinkedIn<span aria-hidden="true"> →</span></a></li>
+            <!-- [PLACEHOLDER: Google Scholar URL — client to supply; href="#" is a stub] -->
+            <li><a class="inline-link" href="#" rel="noopener" target="_blank">Google Scholar<span aria-hidden="true"> →</span></a></li>
+            <!-- [PLACEHOLDER: ORCID URL — client to supply; href="#" is a stub] -->
+            <li><a class="inline-link" href="#" rel="noopener" target="_blank">ORCID<span aria-hidden="true"> →</span></a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
   </main>
 
   <footer class="site-footer">
@@ -48,5 +71,6 @@
   </footer>
 
   <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/motion.js" defer></script>
 </body>
 </html>

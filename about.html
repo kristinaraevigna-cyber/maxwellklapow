@@ -14,7 +14,7 @@
 
   <!-- [PLACEHOLDER: favicon — client to supply /img/favicon.svg] -->
 </head>
-<body>
+<body data-page="about">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
@@ -33,9 +33,42 @@
     </div>
   </header>
 
-  <main id="main">
-    <h1>About</h1>
-    <!-- Phase 1 stub — two-column layout with sticky meta-rail (portrait, facts list, CV link) lands in Phase 3. -->
+  <main id="main" class="main--about">
+    <h1 class="page-headline">About</h1>
+
+    <div class="about-grid">
+      <aside class="about-rail" aria-label="Meta">
+        <figure class="about-rail__portrait">
+          <!-- [PLACEHOLDER: portrait — client to supply /img/portrait.jpg, 3:4 ratio, black-and-white or ink-duotone] -->
+          <div class="portrait-placeholder" aria-hidden="true">Portrait</div>
+        </figure>
+        <ul class="facts">
+          <li>Oxford, UK</li>
+          <li>DPhil candidate</li>
+          <li>Magdalen College</li>
+          <li>Exp. completion: March 2027</li>
+        </ul>
+        <!-- [PLACEHOLDER: downloadable CV — client to confirm public version; drop PDF at /cv.pdf] -->
+        <a href="/cv.pdf" class="inline-link" download>Download CV<span aria-hidden="true"> →</span></a>
+      </aside>
+
+      <article class="about-body">
+        <p>Maxwell C. Klapow is a DPhil candidate in Experimental Psychology at the University of Oxford. He is based at Magdalen College and works under the supervision of Professor Cathy Creswell and Dr Jamie Lachman. His research sits at the intersection of digital behaviour change, implementation science, and global mental health. The research and the consulting practice are the same work, applied to different problems.</p>
+
+        <p>Max studies how evidence-based psychological support can be delivered through the systems people already use, rather than through separate clinical pathways that most of the world cannot reach. His dissertation asks a specific version of that question: whether universal mental health content can be grafted onto a WhatsApp-based parenting programme running at national scale in Mexico. The work covers design, implementation, and early effectiveness, in partnership with UNICEF, the National Institute of Psychiatry Ramón de la Fuente Muñiz, and the Mexican federal and state governments.</p>
+
+        <p>Before Oxford, Max read Psychology, Neuroscience, and Philosophy at Washington University in St. Louis, where he graduated with Honors and later returned as the 2021 undergraduate commencement speaker. He completed an MPhil in Evidence-Based Social Intervention and Policy Evaluation at Oxford&rsquo;s St Hilda&rsquo;s College in 2023, and stayed on for the DPhil with a full scholarship from the Economic and Social Research Council based on a proposal he authored himself. He is a Harry S. Truman Scholar and an Oxford Impact Lab Research Innovation Fellow.</p>
+
+        <p>Beyond the dissertation, Max serves as Director of Research and Evaluation at Lay First Responders International, works as an affiliate researcher at King&rsquo;s College London and at Oxford&rsquo;s Department of Social Policy and Intervention, and sits on the early career editorial board of <em>Prevention Science</em>. He has presented research at the World Bank, the Child Mind Institute, UNICEF Mexico, and the National Institute of Psychiatry of Mexico.</p>
+
+        <p>Health tech companies, NGOs, foundations, and public agencies hire him to design evaluations, shape digital products, and move evidence-based programmes from trial conditions into real-world systems.</p>
+
+        <p class="page-ctas">
+          <a href="/research" class="inline-link">Research<span aria-hidden="true"> →</span></a>
+          <a href="/contact" class="inline-link">Get in touch<span aria-hidden="true"> →</span></a>
+        </p>
+      </article>
+    </div>
   </main>
 
   <footer class="site-footer">
@@ -46,5 +79,6 @@
   </footer>
 
   <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/motion.js" defer></script>
 </body>
 </html>

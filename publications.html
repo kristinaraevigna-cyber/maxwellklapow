@@ -14,7 +14,7 @@
 
   <!-- [PLACEHOLDER: favicon — client to supply /img/favicon.svg] -->
 </head>
-<body>
+<body data-page="publications">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
@@ -33,9 +33,56 @@
     </div>
   </header>
 
-  <main id="main">
-    <h1>Publications</h1>
-    <!-- Phase 1 stub — numbered selected-work section and filterable full list (year/type/text) land in Phase 3, driven by /data/publications.json. -->
+  <main id="main" class="main--pubs">
+    <h1 class="page-headline">Publications</h1>
+
+    <p class="page-lede">Peer-reviewed publications from 2021 to the present, covering digital mental health interventions, implementation science in LMICs, correctional psychology, and global emergency response. The work spans single-arm pilot trials, multi-country RCTs, systematic reviews, and meta-analyses, alongside invited manuscripts and technical reports for UNICEF and government partners. Several papers are currently under review.</p>
+
+    <section class="pubs-section" aria-labelledby="selected-heading">
+      <h2 class="pubs-section__heading" id="selected-heading">Selected work</h2>
+      <ol class="pubs-selected" data-pubs-selected>
+        <!-- Rendered by /assets/js/publications.js from /data/publications.json (highlighted:true, up to 5). -->
+      </ol>
+    </section>
+
+    <section class="pubs-section" aria-labelledby="full-heading">
+      <h2 class="pubs-section__heading" id="full-heading">Full list</h2>
+      <p class="pubs-section__intro">The complete list is below. Papers are grouped by year and filterable by type.</p>
+
+      <form class="pubs-filters" role="search" aria-label="Filter publications" onsubmit="return false">
+        <div class="pubs-filters__field">
+          <label class="pubs-filters__label" for="pubs-filter-year">Year</label>
+          <select id="pubs-filter-year" data-filter="year">
+            <option value="">All</option>
+          </select>
+        </div>
+        <div class="pubs-filters__field">
+          <label class="pubs-filters__label" for="pubs-filter-type">Type</label>
+          <select id="pubs-filter-type" data-filter="type">
+            <option value="">All</option>
+            <!-- Type options rendered by /assets/js/publications.js based on types present in the data. -->
+          </select>
+        </div>
+        <div class="pubs-filters__field pubs-filters__field--text">
+          <label class="pubs-filters__label" for="pubs-filter-text">Search</label>
+          <input id="pubs-filter-text" type="search" data-filter="text" placeholder="Author, title, or venue" autocomplete="off" />
+        </div>
+      </form>
+
+      <div class="pubs-full" data-pubs-full aria-live="polite" aria-busy="true">
+        <!-- Rendered by /assets/js/publications.js -->
+      </div>
+
+      <noscript>
+        <p class="pubs-empty">Publications require JavaScript. View the full list on <a href="https://scholar.google.com/" class="inline-link" rel="noopener">Google Scholar</a>. <!-- [PLACEHOLDER: Google Scholar URL] --></p>
+      </noscript>
+    </section>
+
+    <!-- [PLACEHOLDER: DOIs — add to /data/publications.json once confirmed; rendered titles link through when present] -->
+
+    <p class="page-ctas">
+      <a href="/contact" class="inline-link">Contact for PDFs or collaboration<span aria-hidden="true"> →</span></a>
+    </p>
   </main>
 
   <footer class="site-footer">
@@ -46,5 +93,7 @@
   </footer>
 
   <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/motion.js" defer></script>
+  <script src="/assets/js/publications.js" defer></script>
 </body>
 </html>

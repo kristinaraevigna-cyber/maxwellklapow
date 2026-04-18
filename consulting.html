@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Consulting & Speaking — Maxwell C. Klapow</title>
+  <title>Consulting &amp; Speaking — Maxwell C. Klapow</title>
   <meta name="description" content="Behavioural science, evaluation, and digital health strategy consulting for health tech companies, NGOs, foundations, and governments." />
 
   <link rel="preload" href="/assets/fonts/instrument-serif-regular.woff2" as="font" type="font/woff2" crossorigin />
@@ -14,13 +14,12 @@
 
   <!-- [PLACEHOLDER: favicon — client to supply /img/favicon.svg] -->
 </head>
-<body>
+<body data-page="consulting">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
     <div class="site-header__inner">
-      <!-- Restrained mark treatment (locked in v2): wordmark stays on this page too.
-           The klapow AND CO. hand-drawn mark appears only as a small centred footer signature in Phase 3. -->
+      <!-- Restrained mark treatment (locked in v2): text wordmark stays at top on all pages, including Consulting. -->
       <a class="wordmark" href="/" aria-label="Maxwell C. Klapow — home">Maxwell C. Klapow</a>
       <nav class="site-nav" aria-label="Primary" data-open="false">
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
@@ -35,10 +34,68 @@
     </div>
   </header>
 
-  <main id="main">
-    <h1>Consulting &amp; Speaking</h1>
-    <!-- Phase 1 stub — opening paragraph, services list, 2×2 project grid (from /data/projects.json), speaking, inquiries, and footer signature land in Phase 3. -->
-    <!-- [PLACEHOLDER: /img/klapow-and-co.svg — client to supply consulting mark SVG for Phase 3 footer signature] -->
+  <main id="main" class="main--consulting">
+    <h1 class="page-headline">Consulting &amp; Speaking</h1>
+    <p class="page-subheadline">Behavioural science, evaluation, and digital health strategy for organisations building something that has to work.</p>
+
+    <p class="page-lede">I work with health tech companies, NGOs, international development organisations, foundations, and government agencies on the parts of a project where research, product, and implementation have to fit together. Most engagements fall into three patterns: designing an evaluation that will actually answer the question, shaping a digital product so it changes behaviour rather than opinion, or moving an evidence-based programme from a trial into a real-world system without losing what made it work. Engagements run from a single workshop to a nine-month embedded role.</p>
+
+    <section class="consulting-section" aria-labelledby="services-heading">
+      <h2 class="consulting-section__heading" id="services-heading">Services</h2>
+      <ul class="services">
+        <li><strong>Research and evaluation design.</strong> Feasibility studies, RCTs (individual and cluster), mixed-methods frameworks, power analysis, pre-registration, and protocol writing.</li>
+        <li><strong>Implementation science strategy.</strong> Scaling evidence-based programmes using ExpandNet, RE-AIM, EPIS, and related frameworks. Stakeholder mapping, implementation outcomes, and adaptation frameworks.</li>
+        <li><strong>Digital health product advisory.</strong> Chatbot design, behaviour change architecture, and UX review for health behaviour products. Reviewing what the literature actually supports before you build it.</li>
+        <li><strong>Fractional scientist.</strong> Embedded part-time research leadership for organisations without in-house science capacity. Typically one to three days a week, for teams that need a named principal investigator or research lead.</li>
+        <li><strong>Grant writing and funding strategy.</strong> Concept notes, full proposals, and funder-fit assessments for foundation, government, and bilateral funders.</li>
+        <li><strong>Manuscript review and academic writing support.</strong> For teams translating internal work into peer-reviewed publication.</li>
+      </ul>
+    </section>
+
+    <section class="consulting-section" aria-labelledby="engagements-heading">
+      <h2 class="consulting-section__heading" id="engagements-heading">Selected Engagements</h2>
+      <ul class="project-grid">
+        <li class="project-card">
+          <p class="project-card__tag">UNICEF MEXICO · GOB. DE MÉXICO</p>
+          <h3 class="project-card__title">Embedding mental health support in a national WhatsApp-based parenting programme</h3>
+          <p class="project-card__desc">Co-designed and evaluated Crianza con Conciencia+ (CC+), a digital parenting and mental health intervention deployed inside the Mexican public health system. Work spans intervention design, implementation strategy across four states, and the feasibility and early-effectiveness evaluation.</p>
+        </li>
+        <li class="project-card">
+          <p class="project-card__tag">Lay First Responders International</p>
+          <h3 class="project-card__title">Research programme for a West African lay first responder platform</h3>
+          <p class="project-card__desc">Directing research and evaluation for iResponder, a mobile dispatch and responder-wellbeing application serving volunteer first responders in Sierra Leone and across West Africa. Scope includes platform measurement strategy and a three-country longitudinal cohort study of responder mental health.</p>
+        </li>
+        <li class="project-card">
+          <p class="project-card__tag">Stanford University</p>
+          <h3 class="project-card__title">Multi-country RCT of a video intervention to reduce addiction stigma</h3>
+          <p class="project-card__desc">Co-led design, protocol, and analysis of a randomised controlled trial testing a short wordless animated video across 13,500 participants in multiple countries. Pilot results are published in <em>Addictive Behaviors Reports</em>; the full trial is in analysis.</p>
+        </li>
+        <li class="project-card">
+          <p class="project-card__tag">Happier Lives Institute</p>
+          <h3 class="project-card__title">Meta-analysis of psychotherapy effectiveness in LMICs</h3>
+          <p class="project-card__desc">Led a systematic review and meta-analysis of psychotherapy effectiveness across low- and middle-income country settings. Outputs fed into cost-effectiveness modelling used by global health funders and shaped the institute&rsquo;s subsequent research agenda.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="consulting-section consulting-section__prose" aria-labelledby="speaking-heading">
+      <h2 class="consulting-section__heading" id="speaking-heading">Speaking</h2>
+      <p>I give conference keynotes, symposium presentations, internal team workshops, and policy briefings for research, industry, and government audiences. Past venues include the World Bank Mind, Behavior and Development Unit, the Child Mind Institute Global Research Institute, UNICEF Mexico, the National Institute of Psychiatry of Mexico, and the Society for Prevention Research. I also teach at Oxford&rsquo;s Department of Social Policy and Intervention and serve as an AI Ambassador in the Department of Experimental Psychology.</p>
+      <p>Talks are built for the room: implementation researchers want method, product teams want decisions, funders want signal. Tell me the audience and I will structure the talk around what they need to leave with.</p>
+    </section>
+
+    <section class="consulting-section consulting-inquiries" aria-labelledby="inquiries-heading">
+      <h2 class="consulting-section__heading" id="inquiries-heading">Inquiries</h2>
+      <p>Email <a href="mailto:maxwell.klapow@psy.ox.ac.uk" class="inline-link">maxwell.klapow@psy.ox.ac.uk</a> with a short description of the project, the decision you are trying to make, and the rough timeline. Fees upon request.</p>
+      <p class="page-ctas">
+        <a href="mailto:maxwell.klapow@psy.ox.ac.uk" class="inline-link">Email Max<span aria-hidden="true"> →</span></a>
+      </p>
+    </section>
+
+    <figure class="consulting-mark" role="img" aria-label="Klapow and Co.">
+      <!-- [PLACEHOLDER: /img/klapow-and-co.svg — client to supply hand-drawn consulting mark SVG, ~80px wide, cobalt on paper. Placeholder below is a typographic stand-in until SVG lands.] -->
+      <span class="consulting-mark__placeholder" aria-hidden="true">klapow AND CO.</span>
+    </figure>
   </main>
 
   <footer class="site-footer">
@@ -49,5 +106,6 @@
   </footer>
 
   <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/motion.js" defer></script>
 </body>
 </html>
