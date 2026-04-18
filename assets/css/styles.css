@@ -263,7 +263,7 @@ a {
   text-decoration: underline;
   text-decoration-color: var(--cobalt);
   text-decoration-thickness: 1px;
-  text-underline-offset: 4px;
+  text-underline-offset: 2px;
 }
 
 /* ——— Desktop: nav-list inline, hamburger hidden ——— */
